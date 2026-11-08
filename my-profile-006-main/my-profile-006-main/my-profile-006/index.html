@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Developer Portfolio - ฐรนิดา สระทองแอ่น</title>
+    <!-- Google Fonts: Prompt สำหรับภาษาไทยที่อ่านง่ายและสวยงาม -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Prompt:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Link Stylesheet -->
+    <link rel="stylesheet" href="style.css">
+    <!-- Link JavaScript -->
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <!-- Header & เมนูนำทาง -->
+    <header class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">🌸 Chan.<span>Portfolio</span></a>
+            <nav>
+                <ul class="nav-links">
+                    <li><a href="#about">เกี่ยวกับฉัน</a></li>
+                    <li><a href="#skills">ทักษะ</a></li>
+                    <li><a href="#projects">ผลงาน</a></li>
+                    <li><a href="#contact">ติดต่อ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ส่วนเนื้อหาหลัก -->
+    <main>
+        <!-- 1. ส่วนแนะนำตัว (About Me) -->
+        <section id="about" class="section about-section">
+            <div class="container">
+                <div class="profile-card">
+                    <div class="profile-img-wrapper">
+                        <img id="profile-img" class="profile-img" src="IMG_20251129_172459_811.jpg" alt="รูปโปรไฟล์ ฐรนิดา สระทองแอ่น">
+                    </div>
+                    <div class="profile-content">
+                        <span class="badge">Junior Web Developer</span>
+                        <h1>ฐรนิดา สระทองแอ่น</h1>
+                        <p class="subtitle">ชื่อเล่น: <strong>ฌาน</strong> | รหัสนักศึกษา: <strong>68219010006</strong></p>
+                        
+                        <div class="bio-text">
+                            <p>ยินดีต้อนรับเข้าสู่เว็บไซต์ Portfolio ของฉัน!</p>
+                        </div>
+
+                        <!-- ส่วนคติประจำใจ (Motto) -->
+                        <div class="motto-box">
+                            <div class="motto-header">
+                                <span class="motto-icon">💡</span>
+                                <h3>คติประจำใจ</h3>
+                            </div>
+                            <p id="motto" class="motto-content">“การบ้านส่งให้ครู เลิฟยูส่งให้เธอ”</p>
+                        </div>
+
+                        <!-- ปุ่มทักทายแบบ Interactive -->
+                        <div class="interactive-area">
+                            <button id="greetingBtn" class="btn-greeting">✨ กดปุ่มเพื่อทักทาย ✨</button>
+                            <p id="message" class="greeting-message">ยินดีต้อนรับเข้าสู่โปรไฟล์ของฉัน</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 2. ส่วนทักษะที่สนใจ (Skills) -->
+        <section id="skills" class="section skills-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>ทักษะที่สนใจ (Skills)</h2>
+                    <p>ความสามารถและเครื่องมือที่กำลังศึกษาและฝึกฝน</p>
+                </div>
+
+                <div class="skills-grid">
+                    <div class="skill-card">
+                        <div class="skill-icon">🌐</div>
+                        <h3>HTML5</h3>
+                        <p>จัดโครงสร้างหน้าเว็บด้วย Semantic Tags อย่างเป็นระเบียบ ถูกต้องตามมาตรฐาน</p>
+                        <span class="skill-tag">Web Structure</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🎨</div>
+                        <h3>CSS3</h3>
+                        <p>ออกแบบและจัดสไตล์หน้าเว็บให้สวยงาม รองรับ Responsive ทั้งคอมพิวเตอร์และมือถือ</p>
+                        <span class="skill-tag">Styling & Layout</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">⚡</div>
+                        <h3>JavaScript</h3>
+                        <p>เพิ่มลูกเล่นการโต้ตอบกับผู้ใช้งาน (Interactivity) และการควบคุม DOM พื้นฐาน</p>
+                        <span class="skill-tag">Interactivity</span>
+                    </div>
+
+                    <div class="skill-card">
+                        <div class="skill-icon">🚀</div>
+                        <h3>Git & GitHub</h3>
+                        <p>ควบคุมเวอร์ชันของโค้ด (Version Control) และอัปโหลดโปรเจกต์ขึ้น Repository</p>
+                        <span class="skill-tag">Version Control</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 3. ส่วนผลงาน (Projects) -->
+        <section id="projects" class="section projects-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>ผลงานของฉัน (Projects)</h2>
+                    <p>ชิ้นงานที่สร้างสรรค์และพัฒนาต่อยอด</p>
+                </div>
+
+                                <div class="projects-grid">
+                    <!-- Project 1 -->
+                    <article class="project-card">
+                        <div class="project-img-wrapper">
+                            <!-- บันทึกรูปแคปหน้าจอที่ส่งมาไว้ในโฟลเดอร์โปรเจกต์แล้วตั้งชื่อว่า project_preview.jpg -->
+                            <img src="project_preview.png"ภาพตัวอย่างโปรเจกต์ My Developer Profile">
+                        </div>
+                        <div class="project-info">
+                            <span class="project-category">Web Project</span>
+                            <h3>My Developer Profile & Portfolio</h3>
+                            <p>เว็บไซต์แนะนำตัวและผลงานนักพัฒนา ออกแบบด้วย Semantic HTML5, สไตล์ธีมพาสเทลด้วย CSS3 และมีฟังก์ชันทักทายด้วย JavaScript</p>
+                            <div class="tech-stack">
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                                <span>JavaScript</span>
+                            </div>
+                            <div class="project-actions">
+                                <a href="#about" class="btn-link">ดูรายละเอียด</a>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+        </section>
+
+        <!-- 4. ส่วนติดต่อ (Contact) -->
+        <section id="contact" class="section contact-section">
+            <div class="container">
+                <div class="section-title">
+                    <h2>ติดต่อฉัน (Contact)</h2>
+                    <p>ยินดีที่ได้แลกเปลี่ยนความรู้และร่วมงานพัฒนาโปรเจกต์</p>
+                </div>
+                <div class="contact-box">
+                    <p>📍 <strong>สถาบันการศึกษา:</strong> แผนกเทคโนโลยีสารสนเทศ / คอมพิวเตอร์</p>
+                    <p>💬 <strong>รหัสนักศึกษา:</strong> 68219010006</p>
+                    <p>🌐 <strong>ส่งงานผ่าน:</strong> Google Classroom & GitHub Repository (my-profile)</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer ส่วนท้ายหน้าเว็บ -->
+    <footer class="footer">
+        <div class="footer-container">
+            <p>© 2026 <strong>ฐรนิดา สระทองแอ่น (ฌาน)</strong> - My Developer Portfolio</p>
+            <p class="footer-sub">พัฒนาด้วยความตั้งใจ 💖 | My Profile Project</p>
+        </div>
+    </footer>
+
+</body>
+</html>
